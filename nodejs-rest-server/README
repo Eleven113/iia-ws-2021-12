@@ -1,0 +1,3 @@
+npm i express --save
+npm i body-parser jsonwebtoken --save
+npm i express-jwt --save
