@@ -1,0 +1,14 @@
+{
+  "name": "nodejs-client-rest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "client-rest.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.24.0"
+  }
+}
