@@ -1,0 +1,6 @@
+dotnet new webapi
+
+dotnet run
+
+-> https://localhost:???/swagger
+-> http://localhost:???/api/calculatrice/additionner?a=5&b=10
