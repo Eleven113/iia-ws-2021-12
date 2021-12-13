@@ -1,0 +1,8 @@
+https://github.com/DigDes/SoapCore
+
+dotnet new web
+dotnet add package SoapCore
+
+dotnet run
+
+-> http://localhost:???/Calculatrice.asmx?wsdl
