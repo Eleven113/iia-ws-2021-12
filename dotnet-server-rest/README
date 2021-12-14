@@ -9,3 +9,14 @@ dotnet run
 JWT
 ++++++++++++++++++++
 dotnet add package Microsoft.AspNetCore.Authentication.JwtBearer
+
+
+++++++++++++++++++++
+HEROKU
+++++++++++++++++++++
+heroku container:login
+
+docker build .
+
+heroku container:push nom-projet web
+heroku container:release nom-projet web
