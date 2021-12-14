@@ -18,5 +18,5 @@ heroku container:login
 
 docker build .
 
-heroku container:push nom-projet web
-heroku container:release nom-projet web
+heroku container:push -a nom-projet web
+heroku container:release -a nom-projet web
